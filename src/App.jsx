@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Header from "./components/Header/Header.jsx";
-import Banner from "./components/Banner/Banner.jsx";
-import Looks from "./Components/Looks/Looks.jsx";
-import Lancamentos from "./components/Lancamentos/Lancamentos.jsx";
-import Novidades from "./components/Novidades/Novidades.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+import Header from "./components/Header/Header";
+import Banner from "./components/Banner/Banner";
+import Looks from "./components/Looks/Looks";
+import Lancamentos from "./components/Lancamentos/Lancamentos";
+import Novidades from "./components/Novidades/Novidades";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
