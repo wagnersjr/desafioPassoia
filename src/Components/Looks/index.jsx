@@ -5,7 +5,7 @@ import olhos from "../../assets/olhos.png";
 import rosto from "../../assets/rosto.png";
 import tendencia from "../../assets/tendencia.png";
 
-export default function Looks() {
+ function Looks() {
   return (
     <section className="sectionLooks">
 
@@ -33,3 +33,4 @@ export default function Looks() {
     </section>
   );
 }
+export default Looks;

@@ -3,10 +3,12 @@ import banner from "../../assets/bannerPrincipal.png"
 
 
 
-export default function Banner() {
+function Banner() {
   return (
     <section className="banner">
       <img src={banner} alt="Banner principal" />
     </section>
   );
 }
+
+export default Banner

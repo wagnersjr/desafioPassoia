@@ -1,7 +1,7 @@
 import "./header.scss";
 import logo from "../../assets/logo.png";
 
-export default function Header() {
+function Header() {
   return (
     <header className="header">
       <div className="logo">
@@ -16,3 +16,4 @@ export default function Header() {
     </header>
   );
 }
+export default Header

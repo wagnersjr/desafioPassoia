@@ -5,7 +5,7 @@ import kit2 from "../../assets/kit2.png"
 import kit3 from "../../assets/kit3.png"
 import fotoPrincipal from "../../assets/fotoPrincipal.png"
 
-export default function Lancamentos(){
+ function Lancamentos(){
   return(
 
 <section className="lancamentos">
@@ -59,3 +59,5 @@ export default function Lancamentos(){
 
   )
 }
+
+export default Lancamentos;

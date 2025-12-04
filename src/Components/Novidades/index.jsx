@@ -1,7 +1,7 @@
 import bannerRosa from "../../assets/bannerosa.png";
 import "./novidades.scss";
 
-export default function Novidades() {
+ function Novidades() {
   return (
     <section>
         <div>
@@ -14,3 +14,5 @@ export default function Novidades() {
     </section>
   );
 }
+
+export default Novidades
