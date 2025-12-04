@@ -1,4 +1,5 @@
 import "./footer.scss";
+
 import instagram from "../../assets/socials.png"
 import facebook from "../../assets/facebook.png"
 import youtube from "../../assets/youtube.png"
