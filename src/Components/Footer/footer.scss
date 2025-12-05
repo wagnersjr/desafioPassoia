@@ -1,27 +1,27 @@
 .footer {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid rgb(238, 230, 230);
+ 
+  padding-top: 40px;
+  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 160px;
   margin-left: 50px;
 
   h4 {
-    margin-bottom: 15px;
+    margin-bottom: 3rem;
   }
 }
 
 .footer-atendimento {
   ul {
-    padding: 0;
-
+   
     li {
       list-style-type: none;
       font-weight: 300;
       color: #2d2d2d;
-      padding: 4px 0;
+      padding: 0.5rem 0;
     }
   }
 }
@@ -34,14 +34,14 @@
     gap: 25px;
 
     img {
-      width: 48px;
+      width: 40px;
     }
   }
 }
 
 .footer-redes {
   .social-icons {
-    width: 32vw;
+  
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
