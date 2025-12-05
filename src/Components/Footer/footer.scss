@@ -1,37 +1,39 @@
 .footer {
- 
-  padding-top: 40px;
-  
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgb(238, 230, 230);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 160px;
-  margin-left: 50px;
+  gap: 120px;
+ 
 
   h4 {
-    margin-bottom: 3rem;
+    margin-bottom: 15px;
   }
 }
 
 .footer-atendimento {
   ul {
    
+
     li {
       list-style-type: none;
       font-weight: 300;
       color: #2d2d2d;
-      padding: 0.5rem 0;
+      padding: 4px 0;
     }
   }
 }
 
 .footer-pagamentos {
   .icons-pagamento {
-    width: 32vw;
+    
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    
 
     img {
       width: 40px;
@@ -41,7 +43,7 @@
 
 .footer-redes {
   .social-icons {
-  
+   
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
