@@ -1,12 +1,17 @@
 .footer {
   margin-top: 40px;
+  margin-bottom: 40px;
   padding-top: 20px;
-  border-top: 1px solid rgb(238, 230, 230);
+  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 120px;
+
+  @media (max-width: 720px){
+    gap: 30px
+  }
  
 
   h4 {
@@ -23,6 +28,12 @@
       font-weight: 300;
       color: #2d2d2d;
       padding: 4px 0;
+
+      
+  @media (max-width: 720px){
+    font-size: 0.7rem;
+  }
+
     }
   }
 }
@@ -32,11 +43,19 @@
     
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 20px;
+
+
+    @media (max-width: 720px){
+   gap: 10px;
+  }
     
 
     img {
-      width: 40px;
+      width: 35px;
+
+
+ 
     }
   }
 }
